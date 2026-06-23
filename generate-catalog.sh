@@ -59,6 +59,7 @@ normalize_pattern() {
         .extra_features = (.extra_features // null) |
         .docs_repo_url = (.docs_repo_url // null) |
         .ci_url = (.ci_url // null) |
+        .variants = (.variants // null) |
         .spoke = (.spoke // null)
     '
 }
